@@ -1,8 +1,8 @@
 ## Data Scientist Project
 
-project1: Movie Relation
+**Project1**：Movie Relation
 <br>
-project2: Amazon Web Scraping
+**Project2**：Amazon Web Scraping
 
 ## resource
 https://github.com/arapfaik/scraping-glassdoor-selenium
