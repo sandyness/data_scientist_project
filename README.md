@@ -1,5 +1,7 @@
 ## ds_scientist_project
+
 project1: Movie Relation
+<br>
 project2: Amazon Web Scraping
 
 ## resource
