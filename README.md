@@ -1,5 +1,5 @@
-# ds_scientist_project
-project1: Repo for the data science salary prediction
+## ds_scientist_project
+project1: Movie Relation
 project2: Amazon Web Scraping
 
 ## resource
