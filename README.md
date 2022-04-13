@@ -1,4 +1,4 @@
-## ds_scientist_project
+## Data Scientist Project
 
 project1: Movie Relation
 <br>
