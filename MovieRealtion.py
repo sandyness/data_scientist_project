@@ -14,6 +14,7 @@ pd.options.mode.chained_assignment = None
 # read data
 df = pd.read_csv('movies.csv')
 df.head()
+
 # data cleaning
 df.budget = df['budget'].fillna(0)
 df.gross = df['gross'].fillna(0)
@@ -24,6 +25,7 @@ df = df.sort_values(by='gross', inplace=False, ascending=False)
 for col in df.columns:
     pct_missing = np.mean(df[col].isnull())
     print('{} - {}%'.format(col, round(pct_missing*100)))
+    
 # plt the data
 sns.regplot(x='budget', y='gross', data=df, scatter_kws={'color': 'red'}, line_kws={'color': 'blue'})
 for col_name in df.columns:
@@ -41,6 +43,3 @@ corr_pairs = correlation_mat.unstack()
 sorted_pairs = corr_pairs.sort_values(kind="quicksort")
 strong_pairs = sorted_pairs[abs(sorted_pairs) > 0.5]
 print(strong_pairs)
- 
-
-
